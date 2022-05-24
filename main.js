@@ -4,7 +4,16 @@ const FULL_HEART = '♥'
 
 // Your JavaScript code goes here!
 
+console.log(document.all)
 
+const articleHearts = document.querySelectorAll('.like-glyph')
+
+function likeCallback(i) {
+  const heart = i.target
+ 
+}
+
+//console.dir(document)
 
 
 //------------------------------------------------------------------------------
